@@ -1,0 +1,23 @@
+{
+  "name": "mongo-user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha -R min'"
+  },
+  "keywords": [],
+  "author": "Adebayo Anjola",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "expect": "^26.2.0",
+    "mocha": "^8.1.0",
+    "nodemon": "2.0.4",
+    "sinon": "^9.0.2",
+    "supertest": "^4.0.2"
+  }
+}
